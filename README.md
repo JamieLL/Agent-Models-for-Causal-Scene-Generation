@@ -22,7 +22,7 @@ In this
 This project requires the following external packages that need to be installed.
 
 <p><code>
-pip install graphviz <br>
+pip install graphviz #conda install Pillow<br>
 pip install torch <br>
 pip install pyro <br>
 pip install numpy <br>
