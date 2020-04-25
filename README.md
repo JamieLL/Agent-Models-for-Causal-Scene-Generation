@@ -24,6 +24,7 @@ Background： background <br>
 Interaction： interaction
 
 Here is the DAG for this model.
+
 ![dag](dag.png)
 
 The probability distribution are defined based on the logic showed in the DAG: the postions of two entities and the background will determine their final interactions. The positions can be left or right indicates they are in the left part of right part of the background.<br> 
