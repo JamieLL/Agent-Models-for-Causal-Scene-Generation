@@ -50,6 +50,8 @@ This project requires the following external packages that need to be installed.
 ```python
 pip install graphviz #conda install graphviz
 ```
+Note: if there are errors, you might need to set up your local PATH.
+
 
 2. `torch`, `pyro`, `numpy` are for causal models and data processing.
 ```python
