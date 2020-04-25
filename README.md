@@ -26,6 +26,10 @@ Interaction： interaction
 Here is the DAG for this model.
 ![dag](dag.png)
 
+The probability distribution are defined based on the logic showed in the DAG: the postions of two entities and the background will determine their final interactions. The positions can be left or right indicates they are in the left part of right part of the background.<br> 
+In our definition, there are four types of interations: 'fight','hold', 'chase', and 'call'. 'fight' and 'hold' occur when they have the same postion while 'chase' and 'call' occur only if they have different positions.<br>
+Their interaction is also limited by the environment they are in, which is the background of our final generated image. They can't 'hold' each other in the park and they can't 'chase' each other at home.
+
 The causal model uses `pyro` to generate samples and forms captions like the following;
 
     A old female with black long hair fights a little black cat in the park.
