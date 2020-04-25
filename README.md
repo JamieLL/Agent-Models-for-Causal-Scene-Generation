@@ -46,13 +46,25 @@ There is one jupyter notebook: **OOP-Scene-Generation** and two folders in this 
 
 This project requires the following external packages that need to be installed.
 
-```
+1. `graphviz` is for visualize the causal DAG.
+```python
 pip install graphviz #conda install graphviz
+```
+
+2. `torch`, `pyro`, `numpy` are for causal models and data processing.
+```python
 pip install torch
 pip install pyro
 pip install numpy
-pip install ipython
-pip install ipywidgets
-pip install pil #pip install Pillow
 ```
 
+3. `ipython`, `ipywidgets` are for user interface.
+```python
+pip install ipython
+pip install ipywidgets
+```
+
+4. `pil` is to modify images/pictures.
+```python
+pip install pil #pip install Pillow
+```
