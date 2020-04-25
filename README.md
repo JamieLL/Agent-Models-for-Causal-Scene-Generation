@@ -49,27 +49,27 @@ There is a **built-in user interface** in the project. Users can select the vari
 
 This project requires the following external packages that need to be installed.
 
-** `graphviz` is for visualize the causal DAG.
+* `graphviz` is for visualize the causal DAG.
 ```python
 pip install graphviz #conda install graphviz
 ```
 Note: if there are errors, you might need to set up your local PATH.
 
 
-** `torch`, `pyro`, `numpy` are for causal models and data processing.
+* `torch`, `pyro`, `numpy` are for causal models and data processing.
 ```python
 pip install torch
 pip install pyro
 pip install numpy
 ```
 
-** `ipython`, `ipywidgets` are for user interface.
+* `ipython`, `ipywidgets` are for user interface.
 ```python
 pip install ipython
 pip install ipywidgets
 ```
 
-** `pil` is to modify images/pictures.
+* `pil` is to modify images/pictures.
 ```python
 pip install pil #pip install Pillow
 ```
