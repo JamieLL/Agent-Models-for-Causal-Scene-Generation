@@ -32,7 +32,13 @@ Then a picture will be generated using some simple elements.
 
 ## How to explore this project
 
+There is one jupyter notebook: **OOP-Scene-Generation** and two folders in this project: a **/pic** folder which includes the basic input images we have and a **/generatedPic** which includes all the final images generated.
 
+* **OOP-Scene-Generation**: all project details are included in the jupyter notebook which can be used as a tutorial. The project can be run directly using the jupyter notebook with pre-installed packages mentioned below in **Reproducibility** part.
+
+* **/pic** folder: put the entity and background images in this folder and please make sure that their name matches what you have jupyter notebook. (They should match the value of gender, type and background in the alias.) The image type has to be .png or .jpg. If you have both .png and .jpg file with the same name, .png file will be used by default.
+
+* **/generatedPic** folder: all the pictures generated from the code will be saved as .png file in this directory by default named with their descriptions. 
 
 ### Presentation
 
