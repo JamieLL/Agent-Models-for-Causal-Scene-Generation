@@ -36,7 +36,7 @@ There is one jupyter notebook: **OOP-Scene-Generation** and two folders in this 
 
 * **OOP-Scene-Generation**: all project details are included in the jupyter notebook which can be used as a tutorial. The project can be run directly using the jupyter notebook with pre-installed packages mentioned below in **Reproducibility** part.
 
-* **/pic** folder: the input entity and background images are in this folder and their name have to match what the values are in jupyter notebook. (They should match the values of gender, type and background in the alias.) The image type has to be .png or .jpg. If there are both .png and .jpg file with the same name, .png file will be used by default.
+* **/pic** folder: the input entity and background images are in this folder and their names have to match what the values are in jupyter notebook.
 
 * **/generatedPic** folder: all the pictures generated from the code will be saved as .png file in this directory by default named with their descriptions. 
 
