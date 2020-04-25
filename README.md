@@ -73,3 +73,9 @@ pip install ipywidgets
 ```python
 pip install pil #pip install Pillow
 ```
+
+#### Possible Extensions
+- **Change the initial probability distribution of causal model:**<br>
+Just modify the `prob` dictionary in the beginning part of `OOP-Scene-Generation.ipynb`.
+- **Use your own pictures:**<br>
+You can change the picture elements in `/pic`. They should match the values of gender, type and background in the alias. The image type has to be .png or .jpg. If there are both .png and .jpg file with the same name, .png file will be used by default.
