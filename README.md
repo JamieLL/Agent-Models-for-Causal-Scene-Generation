@@ -7,7 +7,7 @@
 
 ## Abstract
 
-In this course - CS 7290: Causal Machine Learning - we have been learning to reflect on a data generating process and represent it with a causal model. However, if we take a [vision-as-inverse-graphics](https://ps.is.tuebingen.mpg.de/research_fields/inverse-graphics) view of computer vision, we could think of captions as a natural language representation of the data generating process that generated tge accompanying image.
+In this course - CS 7290: Causal Machine Learning - we have been learning to reflect on a data generating process and represent it with a causal model. However, if we take a [vision-as-inverse-graphics](https://ps.is.tuebingen.mpg.de/research_fields/inverse-graphics) view of computer vision, we could think of captions as a natural language representation of the data generating process that generated the accompanying image.
 
 Our project is to take these natural language descriptions and turn them into the basic ingrediates of a probabilistic programs, and then convert it into a picture. In this project, we designed an object-oriented causal effect model which can generate a reasonable image from the model result. The structure of the object-oriented causal effect model is inspired by [Practical Probabilistic Programming](https://dl.acm.org/doi/book/10.5555/3033232) Chapter 7.
 
@@ -18,6 +18,9 @@ Person： position1， haircolor， hairlength， gender， age <br>
 Animal： position2, color, size, type <br>
 Background： background <br>
 Interaction： interaction
+
+Here is the DAG for this model.
+![dag](dag.png)
 
 The causal model uses `pyro` to generate samples and forms captions like the following;
 
