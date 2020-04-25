@@ -46,12 +46,13 @@ There is one jupyter notebook: **OOP-Scene-Generation** and two folders in this 
 
 This project requires the following external packages that need to be installed.
 
-<p><code>
-pip install graphviz #conda install Pillow<br>
-pip install torch <br>
-pip install pyro <br>
-pip install numpy <br>
-pip install ipython <br>
-pip install ipywidgets <br>
+```
+pip install graphviz #conda install graphviz
+pip install torch
+pip install pyro
+pip install numpy
+pip install ipython
+pip install ipywidgets
 pip install pil #pip install Pillow
-</code></p>
+```
+
