@@ -11,7 +11,7 @@ In this course - CS 7290: Causal Machine Learning - we have been learning to ref
 
 Our project is to take these natural language descriptions and turn them into the basic ingrediates of a probabilistic programs, and then convert it into a picture. In this project, we designed an object-oriented causal effect model which can generate a reasonable image from the model result. The structure of the object-oriented causal effect model is inspired by [Practical Probabilistic Programming](https://dl.acm.org/doi/book/10.5555/3033232) Chapter 7.
 
-[See video abstract]()
+[See video abstract](https://youtu.be/a0Q6gF46Lmg)
 
 ## Introduction
 
